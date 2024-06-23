@@ -1,18 +1,17 @@
 <p align="center">
-  <img width="460" height="300" alt="logo of keyfinder" src="https://raw.githubusercontent.com/momenbasel/keyFinder/master/css/icon.png">
+  <img width="460" height="300" alt="logo of keyfinder" src="https://raw.githubusercontent.com/geeknik/keyFinder/master/css/icon.png">
 </p>
 <hr></hr>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Chrome-red.svg"/>
+<img src="https://img.shields.io/badge/Firefox-126+-orange"/>
 <img src="https://img.shields.io/github/license/momenbasel/keyFinder"/>
-<img src="https://img.shields.io/github/downloads/momenbasel/keyFinder/total.svg"/>
-<img src="https://img.shields.io/badge/demo-youtube-blue.svg"/>
+<img src="https://img.shields.io/github/downloads/geeknik/keyFinder/total.svg"/>
 </p>
 
-# What is keyFinder?
-keyFinder is chrome extension that searches the DOM for any embedded script link, as script tag may contain keys for specific API(such as Google maps API) and you can add keywords to search for it at any website you visit.
 
+# What is keyFinder?
+keyFinder is Firefox extension that searches the DOM for any embedded script link, as script tag may contain keys for specific API(such as Google maps API) and you can add keywords to search for it at any website you visit.
 
 
 ## Features:
@@ -21,30 +20,18 @@ keyFinder is chrome extension that searches the DOM for any embedded script link
 * it is expandable(as you can add words to it)
 
 
-
-
-
 ## Installation
 
-1. git clone https://github.com/momenbasel/KeyFinder.git
-2. open chrome and go to chrome://extensions
-3. Enable "Developer mode"
-4. drag and drop the keyFinder folder
-  <img src="https://github.com/momenbasel/keyFinder/blob/master/installGif.gif?raw=true"/>
-  
-<br/>
-
-## Demo:
-
-
-![demo of extension](https://github.com/momenbasel/keyFinder/blob/master/demoGif.gif?raw=true)
+1. git clone https://github.com/geeknik/KeyFinder.git
+2. open Firefox and and go to `about:debugging#/runtime/this-firefox`
+3. Click `Load Temporary Add-on`
+4. browse to the `manifest.json` in the keyFinder folder
 
 
 ## Disclaimer
-This tool is for educational purposes only. You are responsible for your own actions. If you break any laws while using this chrome extension, it's your fault.
-
-
+This tool is for educational purposes only. You are responsible for your own actions. If you break any laws while using this Firefox extension, it's your fault.
 
 Contact:
+[@geeknik](https://twitter.com/geeknik)
 
-[@momenbassel](https://twitter.com/@momenbassel)
+Author of the original Chrome extension: [@momenbassel](https://twitter.com/@momenbassel)
